@@ -6,7 +6,7 @@ body{
 
 nav{
     display: flex;
-    background-color: rgba(172, 87, 7, 0.945);
+    background-image: linear-gradient(rgb(3, 3, 2),rgb(250, 113, 89));
     height: 80px;
     width: 100%;
 }
