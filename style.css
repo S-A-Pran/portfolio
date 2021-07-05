@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgba(36, 94, 21, 0.945);
+    height: 80px;
+    width: 100%;
+}
+
+.nav-content{
+    display: flex;
+    width: 50%;
+}
+
+.nav-element{
+    padding: 30px;
+}
+
+nav img{
+    margin-top: 5px;
+    height: 80%;
+    width: 15%;
+}
+
+.nav-content a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .5s;
+}
+
+.nav-content a:hover{
+    color: black;
+    background-color:white;
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 15px;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.home{
+    display: flex;
+}
+.home-element{
+    width: 50%;
+    padding-left: 5%;
+}
+.home img{
+    width: 100%;
+}
+.orange{
+    color: orange;
+}
