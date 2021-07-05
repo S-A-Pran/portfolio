@@ -6,7 +6,7 @@ body{
 
 nav{
     display: flex;
-    background-color: rgba(36, 94, 21, 0.945);
+    background-color: rgba(172, 87, 7, 0.945);
     height: 80px;
     width: 100%;
 }
@@ -49,7 +49,36 @@ nav img{
     border-radius: 5px;
 }
 .home{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     display: flex;
+    padding: 50px;
+}
+.edu{
+    padding: 100px;
+    display: flex; 
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+   
+}
+.edu img{
+    width: 80%;
+    height: 90%;
+}
+section{
+    padding-top: 5%;
+}
+.skill{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    padding: 50px;
+}
+.skill img{
+    width: 80%;
+    height: 90%;
 }
 .home-element{
     width: 50%;
@@ -59,16 +88,52 @@ nav img{
     width: 80%;
     height: 90%;
 }
+.contact{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.foo{
+    display: flex;
+}
+.contact img{
+    width: 80%;
+    height: 90%;
+}
 .orange{
     color: orange;
 }
-section{
-    margin-bottom: 100px;
-}
+
 .edu-element{
     width: 25%;
     padding: 10px;
 }
 li{
     font-size: 25px;
+}
+
+.address{
+    width: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    margin: 10%;
+    border-left: 10px solid;
+    border-image: linear-gradient(red,tomato);
+    border-image-slice: 1;
+}
+.h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.email h3{
+    margin-top: 70px;
+}
+.address-detail{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
